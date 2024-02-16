@@ -1,0 +1,125 @@
+.upper-header,
+.lower-header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+}
+
+.slogan {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-size: xx-large;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 30%;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*This is the first part of the website */
+
+.right-links ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.right-links {
+    margin-left: auto;
+}
+
+.upper-header {
+    padding: 20px;
+}
+
+/*This is the second part of the website */
+
+.lower-header-right {
+    margin-left: auto;
+}
+
+/* This is the third part of the website */
+
+h1 {
+    text-align: center;
+}
+
+.white-space {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-container {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.empty {
+    width: 200px;
+    height: 200px;
+    border: 50px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* This is the quote part of the website */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    background-color: #E5E7EB;
+}
+
+.quote-one {
+    font-size: 36px;
+    font: light italic;
+    color: #1F2937;
+}
+
+
+.shop-container {
+    margin: 100px 200px;
+    display: flex;
+    padding: 10px 50px;
+    background-color: #3882F6;
+}
+
+.shop-container button {
+    margin-left: auto;
+    border: #F9FAF8;
+}
+
+
+/* This is the footer part of the website */
+
+.footer{
+    justify-content: center;
+}
