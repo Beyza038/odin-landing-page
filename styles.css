@@ -8,12 +8,6 @@
     padding: 20px;
 }
 
-.slogan {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-size: xx-large;
-}
-
 button {
     font-family: Roboto, sans-serif;
     border: none;
@@ -33,12 +27,21 @@ body {
 
 /*This is the first part of the website */
 
+.lower-header-left button {
+    border-style: solid;
+    border-width: 1px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 .right-links ul {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 10px;
+    gap: 20px;
 }
 
 a {
@@ -51,31 +54,63 @@ a {
 }
 
 .upper-header {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 /*This is the second part of the website */
 
+.lower-header {
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.lower-header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.slogan {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-size: xx-large;
+}
+
 .lower-header-right {
+    background-color: #E5E7EB;
+    width: 400px;
+    height: 150px;
     margin-left: auto;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* This is the third part of the website */
 
 h1 {
     text-align: center;
+    color: #1F2937;
 }
 
 .white-space {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    justify-content: space-around;
 }
 
 .card-container {
     display: flex;
     margin: 10px;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .empty {
@@ -84,9 +119,22 @@ h1 {
     border: 50px;
 }
 
-img {
-    max-width: 300px;
-    max-height: 300px;
+.image {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    padding: 0px;
+}
+
+.image img {
+   height: 100%;
+   width: 100%;
+   object-fit: fill;
+}
+
+.card-container div {
+    color: #1F2937;
+    text-align: center;
 }
 
 /* This is the quote part of the website */
@@ -94,27 +142,56 @@ img {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 50px 100px;
+    padding: 50px 150px;
     background-color: #E5E7EB;
+    margin-top: 60px;
 }
 
 .quote-one {
     font-size: 36px;
-    font: light italic;
+    font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
 }
 
+.quote-two {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+/* This is the shop part of the website */
 
 .shop-container {
     margin: 100px 200px;
     display: flex;
     padding: 10px 50px;
     background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 5px;
 }
 
 .shop-container button {
     margin-left: auto;
-    border: #F9FAF8;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 60px;
+    font-size: large;
+    border-radius: 15px;
 }
 
 
